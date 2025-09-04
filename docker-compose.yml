@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  pgvector:
+    image: ghcr.io/pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: langchain
+      POSTGRES_PASSWORD: langchain
+      POSTGRES_DB: langchain
+    ports:
+      - "6024:5432"
