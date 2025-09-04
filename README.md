@@ -1,26 +1,19 @@
 # Intelligence_Docs
 
 ⚙️ 1. Prerequisites
-
 Windows 10/11 with PowerShell
-
 Python 3.10+ installed → check with:
-
 python --version
-
 
 Docker Desktop installed and running (for Postgres + pgvector).
 
 📥 2. Setup the Project
 2.1 Extract the Project
-
-Unzip the project folder somewhere, e.g. D:\My_Projj.
+Unzip the project folder somewhere, e.g. D:\My_Project.
 
 2.2 Create Virtual Environment
-
 In PowerShell:
-
-cd D:\My_Projj
+cd D:\My_Project
 python -m venv .venv
 .venv\Scripts\activate
 
